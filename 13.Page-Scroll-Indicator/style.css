@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#333;
+    height: 100vh;
+    color: #fff;
+    font-family: serif;
+    position: relative;
+}
+.content{
+    padding: 4rem;
+}
+.content section{
+    border: 2px solid #fff;
+    margin: 20px 0;
+    padding: 20px;
+}
+.content section h1{
+    margin: 10px 0;
+}
+.scroll-indicator{
+    height: 5px;
+    width: calc(100%-5em);
+    top: 10px;
+    left: 3rem;
+    border-radius: 3px;
+    background: #fff;
+    position: fixed;
+}
+.scroll-indicator .progress{
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    transition: width .1s;
+    background: linear-gradient(30deg,#08bee7,#d900ff);
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.container{
+    background: #333;
+    width: 25rem;
+    padding: 30px;
+}
+.scroll{
+    background: #333;
+    width: 350px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.scroll-obj{
+    padding: 20px;
+}

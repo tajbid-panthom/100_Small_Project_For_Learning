@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#05fc07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+h2{
+    color: #fff;
+    font-size: 27px;
+    padding-top: 40px;
+}
+button{
+    padding: 15px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+button:hover{
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+button:active{
+    padding: 5px;
+}
